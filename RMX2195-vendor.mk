@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.rcsconfig@2.1.so \
     vendor/realme/RMX2195/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/realme/RMX2195/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
-    vendor/realme/RMX2195/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/realme/RMX2195/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/realme/RMX2195/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/realme/RMX2195/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
@@ -105,17 +104,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
     vendor/realme/RMX2195/proprietary/vendor/bin/f2player:$(TARGET_COPY_OUT_VENDOR)/bin/f2player \
     vendor/realme/RMX2195/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
+    vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
+    vendor/realme/RMX2195/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.qti \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
-    vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.1-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
@@ -126,9 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
-    vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/realme/RMX2195/proprietary/vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service \
     vendor/realme/RMX2195/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/realme/RMX2195/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
     vendor/realme/RMX2195/proprietary/vendor/bin/imsqmidaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsqmidaemon \
@@ -139,9 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/realme/RMX2195/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/realme/RMX2195/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
-    vendor/realme/RMX2195/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/realme/RMX2195/proprietary/vendor/bin/mlid:$(TARGET_COPY_OUT_VENDOR)/bin/mlid \
-    vendor/realme/RMX2195/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
     vendor/realme/RMX2195/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/realme/RMX2195/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/realme/RMX2195/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
@@ -210,48 +204,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
     vendor/realme/RMX2195/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/realme/RMX2195/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/102_SummerDay.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/103_Fantasy.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/105_WindSing.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/106_Lost.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/107_Central.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/107_Central.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/111_GreenOrange.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/112_Cyberpunk.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/112_Cyberpunk.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/113_BlackIce.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/CFR_para_W108_V01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W108_V01.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/MIUI_Time.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MIUI_Time.ttf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/Miui-Light.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Miui-Light.ttf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/Roboto-Thin.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Roboto-Thin.ttf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/com.xiaomi.dcal.wd.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wd.golden \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/hdr_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdr_ui9_params.config \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/mibokeh_712_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_opencl.bin \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/mibokeh_712_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_712_parameter.bin \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/bokeh_model/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/cache_data \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/bokeh_model/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/model_mdl_cache \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/bokeh_model/segment_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/bokeh_model/segment_model \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/rt_model/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/cache_data \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/rt_model/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/model_mdl_cache \
     vendor/realme/RMX2195/proprietary/vendor/etc/camera/model/rt_model/segment_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model/rt_model/segment_model \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/morpho_lowlight5.0_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight5.0_algoup.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/score_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_bg.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/score_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_icon.png \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
-    vendor/realme/RMX2195/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/realme/RMX2195/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
-    vendor/realme/RMX2195/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
+    vendor/realme/RMX2195/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
+    vendor/realme/RMX2195/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -285,15 +246,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/realme/RMX2195/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.configstore@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.configstore@1.1-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
+    vendor/realme/RMX2195/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -318,7 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
@@ -330,20 +289,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
-    vendor/realme/RMX2195/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/realme/RMX2195/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/realme/RMX2195/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
@@ -358,8 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/permissions/com.google.android.feature.PREMIER_TIER.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.android.feature.PREMIER_TIER.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
@@ -368,15 +319,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_ft8719_v2_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8719_v2_video_mode_dsi_truly_panel.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_ft8720m_v2_video_mode_dsi_xinli_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8720m_v2_video_mode_dsi_xinli_panel.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525_video_mode_dsi_truly_panel.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt36672a_truly_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672a_truly_video_mode_dsi_truly_panel.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt36672d_tianma_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672d_tianma_video_mode_dsi_truly_panel.xml \
-    vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_nt36672d_xinli_video_mode_dsi_truly_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672d_xinli_video_mode_dsi_truly_panel.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_120HZ_panel_with_DSC.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_60HZ_panel_with_DSC.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r66451_amoled_cmd_mode_dsi_visionox_90HZ_panel_with_DSC.xml \
@@ -402,36 +348,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/realme/RMX2195/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/realme/RMX2195/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_ak991x_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_bmp285_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_bmp285_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_bu52053nvx_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_default_sensors.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_lsm6dso_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_power_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_qrd_ak991x_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_qrd_lsm6dso_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_qrd_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_qrd_tmd2725.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/agatti_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/agatti_tmd2725.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_af6133e_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_af6133e_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_ak991x_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_bma2x2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_bma2x2_0.json \
+    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/alsps.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/alsps.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_bmp285_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_bmp285_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_bu52053nvx_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_default_sensors.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_kx022_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_kx022_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_lis2hh12_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_lis2hh12_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_lsm6dso_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_mmc56x3x_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_power_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_qrd_ak991x_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_qrd_lsm6dso_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_qrd_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_qrd_tmd2725.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_sc7a20_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_sc7a20_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_stk3a5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_stk3a5x_0.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_sx932x_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/bengal_tmd2725.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_tmd2725.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/dynamic_sensors.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/sdm845_vpg_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_vpg_0.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -555,18 +479,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/realme/RMX2195/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/realme/RMX2195/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
-    vendor/realme/RMX2195/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
     vendor/realme/RMX2195/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-nolimits.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-normal.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-phone.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf \
-    vendor/realme/RMX2195/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/realme/RMX2195/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/realme/RMX2195/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/realme/RMX2195/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
@@ -596,15 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/firmware/a702_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_zap.b02 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/a702_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_zap.elf \
     vendor/realme/RMX2195/proprietary/vendor/firmware/a702_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_zap.mdt \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87359_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87359_abrcv.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87359_abspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87359_abspk.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87359_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87359_drcv.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87359_dspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87359_dspk.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87519_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_drcv.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87519_hvload.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_hvload.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/aw87519_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87519_kspk.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/focaltech_ts_fw_TRULY.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_TRULY.bin \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -612,14 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/RMX2195/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672a_tianma_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_tianma_novatek_ts_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672a_tianma_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_tianma_novatek_ts_mp.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672a_truly_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_truly_novatek_ts_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672a_truly_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672a_truly_novatek_ts_mp.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672d_tianma_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_tianma_novatek_ts_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672d_tianma_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_tianma_novatek_ts_mp.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672d_xinli_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_xinli_novatek_ts_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/nt33672d_xinli_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt33672d_xinli_novatek_ts_mp.bin \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b00 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b01 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b02 \
@@ -627,8 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.b04 \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.elf \
     vendor/realme/RMX2195/proprietary/vendor/firmware/scuba_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/scuba_ipa_fws.mdt \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
-    vendor/realme/RMX2195/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/realme/RMX2195/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
@@ -637,10 +531,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.3-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/audio.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.bengal.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.silead.default.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib/hw/sound_trigger.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.bengal.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
@@ -700,7 +596,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -723,7 +618,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
@@ -757,7 +651,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
@@ -788,7 +681,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper_jni.so \
@@ -799,7 +691,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfdcodecv4l2_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcodecv4l2_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfdconfigutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdconfigutils_proprietary.so \
@@ -820,7 +712,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfduibcsrc_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrc_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfduibcsrcinterface_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsrcinterface_proprietary.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/libwfdutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdutils_proprietary.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_adsp_loader.ko \
     vendor/realme/RMX2195/proprietary/vendor/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_apr.ko \
     vendor/realme/RMX2195/proprietary/vendor/lib/modules/audio_bolero_cdc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/audio_bolero_cdc.ko \
@@ -869,18 +760,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/misound_karaoke_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaoke_res.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_karaokemix_res.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib/rfsa/adsp/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/misound_res_headphone.bin \
     vendor/realme/RMX2195/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libmisoundfx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmisoundfx.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
@@ -891,95 +776,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.citrus_ofilm_ov8856_front_eeprom.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.citrus_sunny_ov8856_front_eeprom.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_ofilm_ov8856_front_eeprom.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.lime_sunny_ov8856_front_eeprom.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_ofilm_ov8856_front.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_hi259_macro.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_ov02b1b_depth.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_ov8856_front.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1sp_main.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.citrus_sunny_s5kgm1st_main.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_aac_gc02m1_macro.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_aacaf_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_aacaf_hi259_macro.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_acc_ov8856_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_acc_ov8856_ultra.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_ofilm_gc02m1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_ofilm_gc02m1b_depth.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_ofilm_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_ofilm_ov8856_front.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_ofilm_s5kgm1st_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_ofilm_s5kgm1st_main.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_hi259_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_hi259_macro.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_ov02b1b_depth.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_ov8856_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_ov8856_front.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_ov8856_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_ov8856_ultra.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1sp_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1sp_main.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1st_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.lime_sunny_s5kgm1st_main.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_ofilm_ov8856g2_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov02b1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_ov8856g2_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1sp_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.citrus_sunny_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_aac_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_aac_gc02m1_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_aacaf_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_aacaf_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_acc_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_acc_ov8856_ultra.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_ofilm_gc02m1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_ofilm_gc02m1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_ofilm_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_ofilm_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_ofilm_ov8856g2_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_ofilm_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_ofilm_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_ofilmold_gc02m1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_ofilmold_gc02m1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_ov02b1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856_ultra.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856g2_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_ov8856g2_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1sp_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lime_sunny_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_ofilm_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_hi259_macro_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov02b1b_depth_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_global.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_ov8856_front_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1sp_main_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.citrus_sunny_s5kgm1st_main_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aac_gc02m1_macro_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aacaf_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aacaf_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_aacaf_hi259_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_aacaf_hi259_macro_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_acc_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_acc_ov8856_ultra.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_acc_ov8856_ultra_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_acc_ov8856_ultra_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_gc02m1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_gc02m1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_gc02m1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_gc02m1b_depth_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_Normal.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_Normal.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_global.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_ov8856_front_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main_Normal.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main_Normal.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_ofilm_s5kgm1st_main_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_hi259_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_hi259_macro.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_hi259_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_hi259_macro_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov02b1b_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov02b1b_depth.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov02b1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov02b1b_depth_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_Normal.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_Normal.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_global.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_front_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_ultra.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_ov8856_ultra_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_ov8856_ultra_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main_Normal.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main_Normal.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1sp_main_india.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main_Normal.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main_Normal.bin \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.lime_sunny_s5kgm1st_main_india.bin \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
@@ -1023,7 +819,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/camera/components/com.vidhance.node.processing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.node.processing.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/realme/RMX2195/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
@@ -1064,14 +859,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/cdfinger.fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/cdfinger.fingerprint.default.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/consumerir.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.bengal.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.silead.default.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/focal_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/focal_fingerprint.default.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
@@ -1085,7 +874,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
@@ -1156,7 +944,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libbeauty_face_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeauty_face_interface.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
@@ -1238,6 +1025,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
@@ -1262,8 +1051,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libmibokeh_712.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_712.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_cac3.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
@@ -1277,7 +1064,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopestriping.so \
@@ -1359,14 +1145,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libst_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_sr_models.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libstfactory-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstfactory-vendor.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
@@ -1381,7 +1166,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libxmi_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmi_high_dynamic_range.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
@@ -1389,7 +1173,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol_uri_v3.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
@@ -1408,8 +1191,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.data.mwqem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.mwqem@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
@@ -1472,10 +1253,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
+    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.keystore@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.ims.callcapability@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callcapability@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.ims.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.factory@1.0.so \
@@ -1488,12 +1269,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
     vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.1.so \
-    vendor/realme/RMX2195/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.2.so \
     vendor/realme/RMX2195/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/realme/RMX2195/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/realme/RMX2195/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
@@ -1505,31 +1280,4 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2195/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    libfastcvopt \
-    libthermalclient \
-    SoterService \
-    CneApp \
-    IWlanService \
-    TimeService \
-    PowerOffAlarm \
-    QtiTelephonyService \
-    uceShimService \
-    WfdService \
-    ims \
-    qcrilmsgtunnel \
-    WfdCommon \
-    tcmclient \
-    com.fingerprints.extension \
-    audiosphere \
-    com.qti.dpmframework \
-    dpmapi \
-    qcrilhook \
-    vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.ims.factory-V1.0-java \
-    vendor.qti.ims.factory-V1.1-java \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.xiaomi.hardware.mlipay \
-    manifest_vendor.xiaomi.hardware.mtdservice \
-    vendor.qti.gnss@4.0-service
+    libfastcvopt
